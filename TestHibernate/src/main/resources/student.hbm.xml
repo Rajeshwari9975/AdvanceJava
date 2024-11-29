@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping SYSTEM "hibernate-mapping-3.0.dtd">
+  <hibernate-mapping>
+    <class name="com.demo.beans.Student" table="studtab">
+    <id name="id">
+      <generator class="assigned"></generator>
+    </id>
+    <property name="namefirst" type="string" ></property>
+    <property name="namelast" type="string" ></property>
+    <property name="dob" type="date" ></property>
+    <property name="email" type="string" ></property>
+    </class>
+    
+  </hibernate-mapping>
